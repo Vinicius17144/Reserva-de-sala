@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgba(0, 0, 0, 0.801);
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+}
+
+.login{
+    background-color: rgb(175, 175, 175);
+    padding:50px ;
+    width: 300px;
+    color: black;
+  
+    display: flex;
+    flex-direction: column;
+    margin-top: 200px;
+    border-radius: 20px;
+    gap: 10px;
+    position: relative;
+}
+.btt{
+    width: 100px;
+    padding: 5px 5px;
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 120px;
+    font-size: 15px; 
+}
+.h1{
+    color: rgb(0, 0, 0);
+   position: absolute;
+   margin-top: -50px;
+   margin-left: 70px;
+    
+}
+.email{
+    width: 205px;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+.senha{
+    width: 205px;
+    border-radius: 5px;
+    margin-left: 10px;
+}
